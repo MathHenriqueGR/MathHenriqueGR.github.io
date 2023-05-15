@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(63, 62, 62);
+    color: white;
+    display: flex;
+}
+
+
+#a1 {
+    display: flex;
+    padding: 10px;
+    grid-template-columns: auto auto;
+    margin: 20px;
+}
+
+#a2 {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    grid-template-columns: auto auto;
+    height: 400px;
+}
+
+.c1 {
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.c2 {
+    width: 70%;
+    overflow: auto;
+    min-width: 400px;
+}
+
+.c3 {
+    width: 30%;
+    margin: 50px;
+}
+
+img {
+    width: 200px;
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(63, 62, 62);
+    color: white;
+    text-align: center;
+    display: grid;
+}
